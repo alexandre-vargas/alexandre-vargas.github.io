@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Classes para tamanho */
+nav#main-navigator{width:100%; float:none;}
+nav#main-navigator ul li a{padding:0px 30px;}
+
+section#content-text-main{width:100%;}
+
+section#footer-navigator{width:100%;}
+section#footer-infos{width:100%;}

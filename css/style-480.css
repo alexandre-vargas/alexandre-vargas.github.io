@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav#main-navigator{}
+nav#main-navigator ul li a{padding:0px 10px;}
+nav#main-navigator ul li.divider{width:5px;}
+
+section#content-text-main{width:100%;}
+
+section#headline-main{margin-bottom:20px;}
+section#headline-main article{width:25%; float:left;}
+
+section#footer-navigator{width:100%;}
+section#footer-infos{width:100%;}

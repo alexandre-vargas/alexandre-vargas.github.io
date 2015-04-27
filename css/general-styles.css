@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+*{padding:0; margin:0; color:#595959; font-family: 'Arial', 'Verdana', Helvetica san-serif; font-size:12px;}
+
+/* text */
+body{font-family:"Trebuchet MS", Arial, Helvetica;}
+
+h1, h2, h3, h4, h5, h6, p, li, label, a, figcaption{margin:0px; padding:0px; margin-bottom:5px;}
+p, h1, h2, h3, h4, h5, h6, li,{}
+
+p, li, label, a, figcaption{}
+
+h1, h2, h3, h4, h5, h6{font-family: 'Trebuchet MS', 'Arial', serif; display:block; border-bottom:#dddddd 1px solid; line-height:28px; color: #9b9b9b;}
+h1{font-size:25px; }
+h2{font-size:22px;}
+h3{font-size: 21px;}
+h4{font-size:18px;}
+h5{font-size:16px;}
+h6{font-size:13px;}
+
+p{text-align:justify; line-height: 21px;}
+strong{}
+italic{}
+
+ul{margin:0px; margin-bottom:10px;}
+ul li{list-style-position:inside; margin-bottom:0px;}
+ul li a{}
+
+a, a:hover{text-decoration:none; color:#595959;}
+
+dl{}
+dl dt{}
+dl dd{}
+
+/* Form */
+
+form{width:100%;}
+form input{}
+form label{}
+form textarea{}
+form select{}
+form buttom{}
+
+/* images */
+img{}
+figure{}
+figcaption{}
+
+/* tipos de coluna para container */
+.cols, .cols1, .cols2, cols3{min-height: 1px; position:relative;}
+.containerdiv{padding:10px 0px 0px 0px; width:1000px; margin:auto; clear:both;}
+
+.cols{padding-right: 20px;  padding-left: 20px; float:left;}
+.cols1{float:left; padding:0px;}/* classe sem pading */
+.cols2{width:100%; padding: 20px;}/* classe sem pading */
+.cols3{width:100%; padding: 10px; margin-bottom:10px; float:left; border:#666 1px solid; background:#f5f5f5; border: 1px solid #dddddd;}/* classe com borda */
+.cols3a{width:100%; margin-bottom:10px; float:left; border:#666 1px solid; background:#f5f5f5; border: 1px solid #dddddd;}/* classe com borda */
+.cols4{width:100%; padding: 10px; float:left; border:#666 1px solid; background:#f5f5f5; border: 1px solid #dddddd;}/* classe com borda */
+/* classes para divisores */
+
+.cols5{background-color:#FFF;}
+
+/* Tamanhos de coluna para container */
+.cel_1{width:8.333333333333332%;}
+.cel_2{width:16.666666666666664%;}
+.cel_3{width:25%;}
+.cel_4{width:33.33333333333333%;}
+.cel_5{width:41.66666666666667%;}
+.cel_6{width:50%;}
+.cel_7{width:58.333333333333336%;}
+.cel_8{width:66.66666666666666%;}
+.cel_9{width:75%;}
+.cel_10{width:83.33333333333334%;}
+.cel_11{width:91.66666666666666%;}
+.cel_12{width:100%;}
+
+/* linhas */
+.line{width:100%;  margin:0px 0px; padding:5px 5px; float:none; clear:both;}
+.line div{border-bottom:#666 1px solid; height:1px;}
+.nobreak{height:0px; margin:0px; padding:0px; float:none; clear:both;}
+
+/* classes para fontes */
+.style1{}
+.style2{}
+.style3{}
+.style4{}
+/* images */
+.img-center{display:block; margin:auto;}
+
+/* menu */
+.menu_inline li{display:block; float:left;}
+
+/* classes abstratas */
+.logo{}
+.title{}
+.text{}
+.phone{}
+.email{}
+.adress{}
+.site{}
+.banner{}
+.navigator{}
+.grid{}
+.list{}
+.image{}
+.logo{}
+.galery{}
+.social_media{}
+.form{}
+.col{}
+.table{}
+.black{}
+.linkspatrocinados{}
+.logo{}
+.infos{}
+.space{}
+.rows{}
+.icon{}
+
+
+/* responsividade */
+@media all and (max-width : 500px){
+
+	
+}
